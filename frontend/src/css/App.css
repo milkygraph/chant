@@ -1,0 +1,20 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#root{
+  height: 100%;
+}
+
+.main-app {
+  color: black;
+  background-color: #041C32;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+}

@@ -1,0 +1,41 @@
+.left-panel {
+    background-color: black;
+    border-right-style: solid;
+    border-right-color: #111111;
+    flex-basis: 20%;
+    flex-grow: 3;
+    flex-shrink: 0;
+    max-width: 20%;
+}
+
+.user-info {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.user-profile {
+    /* make border to also include margin  */
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    border-bottom-style: solid;
+    border-bottom-color: #111111;
+    color: white;
+    padding: 0.5em;
+}
+
+.user-profile-picture {
+    width: 4em;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 1.5em
+}
+
+.nickname {
+    font-size: 1em
+}
